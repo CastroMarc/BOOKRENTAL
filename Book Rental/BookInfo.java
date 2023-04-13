@@ -1,13 +1,13 @@
 import java.util.*;
 import java.io.*;
 
-class BookInfo{
+class Main{
 String[] Title = {"System Analysis and Design", "Android Application", "Programming Concepts and Logic Fomulation"};
 String[] Author = {"Gary B. Shelly", "Corinne Hoisington", "Rosauro E. Manuel"};
 int[] Copies = {2,3,4};
-Scanner scanner= new Scanner(System.in);
+static Scanner scanner= new Scanner(System.in);
 
-public void firstChoice() {
+public static void firstChoice() {
     System.out.println("You Rented System Analyst and Design by Gary B. Shelly ");
     System.out.println("Rent again? Y/N");
     String C = scanner.nextLine();
@@ -20,7 +20,7 @@ public void firstChoice() {
     }
  }
 
-public void secondChoice() {
+public static void secondChoice() {
     System.out.println("You Rented Android Application by Corrine Hoisington ");
     System.out.println("Rent again? Y/N");
     String C = scanner.nextLine();
@@ -32,7 +32,7 @@ public void secondChoice() {
         System.out.println("PROGRAM ENDS");
     }
 }
-public void thirdChoice() {
+public static void thirdChoice() {
     System.out.println("You Rented Programming Concepts and Logic Formulation by Rosauro E. Manuel ");
     System.out.println("Rent again? Y/N");
     String C = scanner.nextLine();
