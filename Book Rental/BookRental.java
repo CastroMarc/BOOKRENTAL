@@ -1,9 +1,12 @@
 import java.util.*;
 import java.io.*;
 
-public class BookRental extends BookInfo{
+public class BookRental extends Main{
     static Scanner scanner = new Scanner(System.in); 
-    
+
+    public static void main(String[] args){
+
+
     while (true) {
         System.out.println("ELECTTRIC BOOK RENTAL SYSTEM");
         System.out.println("*****************************");
@@ -30,4 +33,5 @@ public class BookRental extends BookInfo{
                 break;
         }
     }
+}
 }
