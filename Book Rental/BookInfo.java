@@ -5,6 +5,7 @@ class BookInfo{
 String[] Title = {"System Analysis and Design", "Android Application", "Programming Concepts and Logic Fomulation"};
 String[] Author = {"Gary B. Shelly", "Corinne Hoisington", "Rosauro E. Manuel"};
 int[] Copies = {2,3,4};
+Scanner scanner= new Scanner(System.in);
 
 public void firstChoice() {
     System.out.println("You Rented System Analyst and Design by Gary B. Shelly ");
